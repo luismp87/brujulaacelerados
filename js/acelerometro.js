@@ -3,7 +3,7 @@ var ac = {
     iniciar:function(){
        if(!ac.watchID){
            var options  = {frequency: 500};
-           ac.watchID = navigator.accelerometro.watchAcceleration(ac.verDatos, ac.error,options);
+           ac.watchID = navigator.accelerometer.watchAcceleration(ac.verDatos, ac.error,options);
         } 
     },
     detener: function(){
