@@ -19,7 +19,7 @@ var br = {
         
     },
     verDatos: function(h){
-        $('#brujula h2').html(h.magneticHeading));
+        $('#brujula h2').html(h.magneticHeading);
         
     }
     
